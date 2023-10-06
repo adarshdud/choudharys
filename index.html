@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="file:///C:/Users/user/Desktop/bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css"> bootstrap css file -->
+    <!-- <script src="C:\Users\user\Desktop\bootstrap\bootstrap-5.2.2-dist\js\bootstrap.bundle.min.js"></script> bootstrap js file -->
+    <link rel="stylesheet" href="maincss.css"> <!--css file-->
+    <!-- <link rel="stylesheet" href="file:///C:/Users/user/Desktop/bootstrap/fontawesome-free-6.2.1-web/css/all.css"> font awesome file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <script src="C:\Users\user\Desktop\bootstrap\js\jquery.js"></script>  <!--jquery file-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> <!--bootstrap css cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> <!--bootstrap js cdn-->
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- <div class="container-fluid"> -->
+         <!-- <div id="row1" class="row bg-danger fixed-top">
+            <div class="col-lg-2 col-md-12 col-sm-12 mt-1 ms-5">
+                <h3>CHOU<span class="text-white">DHARY'S</span></h3>
+            </div>
+            <div class="col-lg-7 col-md-12 d-block mt-2">
+                <ul id="nav1" class="nav nav-fill">
+                    <li class="nav-item"><a href="#row2">Home</a></li>
+                    <li class="nav-item"><a href="#aboutus">Aboutus</a></li>
+                    <li class="nav-item"><a href="#explore">Explore Foods</a></li>
+                    <li class="nav-item"><a href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a href="#faq">Faq</a></li>
+                    <li class="nav-item"><a href="#row11">Contactus</a></li>
+                </ul>
+            </div>
+                <!-- <input type="search" id="adarsh" class="mt-1" placeholder="search">
+                <button class="btn btn-light btn-sm mb-1" id="meena">search</button> -->
+                <!-- <div class="col-lg-2 col-md-5  ms-5">
+                    <form>
+                        <div class="input-group my-1 input-group">
+                            <!-- <span class="input-group-text"><i class="fa-duotone fa-microphone"></i></span> -->
+                            <!-- <input type="text" class="form-control" placeholder="search">
+                             <span class="input-group-text"><i class="fa-solid fa-magnifying-glass" type="submit"></i></span>
+                        </div>
+                    </form>        
+                </div>      
+        </div> -->
+
+
+
+        <!-- navbar start code -->
+        <nav class="navbar navbar-expand-lg bg-danger sticky-top navigation-wrap"><!--row1-->
+            <div class="container-fluid">
+              <a class="navbar-brand me-5 ms-5" href="#">      
+                <h3>CHOU<span class="text-white">DHARY'S</span></h3>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="nav navbar-nav me-5 ms-5">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#row2">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus">Aboutus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#explore">Explore Foods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#row12demo">Contactus</a>
+                        </li>
+                    </ul>
+                    <!-- <div>
+                        <form>
+                            <div class="input-group ms-4">
+                                <input type="text" class="form-control" placeholder="search Your Dish">
+                                <span class="input-group-text bg-warning"><i class="fa-solid fa-magnifying-glass" type="submit"></i></span>
+                            </div>
+                        </form>        
+                    </div>       -->
+                </div>
+            </div>
+        </nav> 
+        <!-- navbar end code-->
+
+
+        <!-- carousel start code -->
+        <div id="row2"> <!--row2-->
+            <div class="row">
+                <div id="short" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#short" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#short" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#short" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div id="bgimage" class="carousel-item active" data-bs-interval="5000">
+                            <div id="bannercontent1">    
+                                <!-- <h1><strong><span class="text-success">Order</span>  <span class="text-warning">Online</span><span class="text-success">,</span><br><span class="text-success">Save Your</span><br><span class="text-warning">Time</span></strong></h1><br> -->
+                                <h3 class="text-white"><i>Welcome to Choudhary's Restaurant</i></h3>
+                                <h1 class="text-white">Eat Healthy and Natural Food</h1>
+                                <p class="text-white"><b>Choudhary's is a restaurant,bar and coffee roastery located on nagpur.We have awesome <br>
+                                    recipes and the most talented chefs in town.</b></p><br>
+                                <button class="btn btn-danger me-4">Order Now<i class="fa-solid fa-basket-shopping ms-1"></i></button>
+                                <button class="btn btn-danger">Learn More<i class="fa-solid fa-angle-right ms-1"></i></button>
+                            </div> 
+                        </div>
+                        <div id="bgimage2" class="carousel-item" data-bs-interval="5000">
+                            <div id="bannercontent">
+                                <h2 class="text-black"><strong>Enjoy Your<br>Favorite Food <br>With Family</strong></h2><br>
+                                <h5>Enjoy Our special menus every <br>Sunday and Friday</h5><br><br>
+                                <button class="btn btn-danger">Order Now<i class="fa-solid fa-basket-shopping ms-1"></i></button>
+                                <button class="btn btn-danger">Learn More<i class="fa-solid fa-angle-right ms-1"></i></button>
+                            </div>
+                         </div>
+                        <div id="bgimage3" class="carousel-item text-light" data-bs-interval="2000">
+                            <div id="bannercontent">
+                                <h2><strong>Fresh and delicious</strong></h2>
+                                <h1>RESTAURANT</h1><br>
+                                <h7><b>WELCOME TO CHOUDHARY'S DELICIOUS RESTAURANT.THE FOOD HERE IS FRESH AND DELICIOUS,<br>
+                                AND THE PRICE FAVORABLE.YPU ARE WELCOME TO TASTE IT.</b></h7><br><br><br>
+                                <button class="btn btn-danger">Order Now<i class="fa-solid fa-basket-shopping ms-1"></i></button>
+                                <button class="btn btn-danger">Learn More<i class="fa-solid fa-angle-right ms-1"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#short" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#short" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div> 
+        <!-- carousel end code -->
+
+
+        <!-- running number start code -->
+        <!-- <div id="row3" class="bg-danger pt-2 mt-3"> 
+            <nav class="nav nav-fill">
+                <div href="" id="row3" class="nav-link">128+ <br>savings</div>
+                <div href="" id="row3" class="nav-link">5732+<br>photos</div>
+                <div href="" id="row3" class="nav-link">1330+<br>rockets</div>
+                <div href="" id="row3" class="nav-link">333+<br>dics</div>
+           </nav>    
+       </div> -->
+       <div id="counter">
+            <div class="counter-section bg-danger mt-5 text-white">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-sm-3 mb-lg-0 mb-md-0 mb-sm-0 mb-5">
+                            <h2><span id="count1"></span>+</h2>
+                            <p>SAVINGS</p>
+                        </div>
+                        <div class="col-sm-3 mb-lg-0 mb-md-0 mb-sm-0 mb-5">
+                            <h2><span id="count2"></span>+</h2>
+                            <p>PHOTOS</p>
+                        </div>
+                        <div class="col-sm-3 mb-lg-0 mb-md-0 mb-sm-0 mb-5">
+                            <h2><span id="count3"></span>+</h2>
+                            <p>ROCKETS</p>
+                        </div>
+                        <div class="col-sm-3 mb-lg-0 mb-md-0 mb-sm-0 mb-5">
+                            <h2><span id="count4"></span>+</h2>
+                            <p>GLOBES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <!-- running number end code -->
+
+
+       <div id="aboutus" class="row mt-5">  <!--row4-->
+        <h1 class="text-center my-5 "><span class=" border-bottom border-4 border-danger">Aboutus</span></h1>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img id="img1" src="images/indian-food.webp" alt="loading" class="rounded">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12  p-5">
+                <h3>we pride ourselves on<br>making real food from the<br>best ingredients</h3>
+                <p>Choudhary's is the nagpur best restaurant opened in 1990.<br>
+                   Owner Vedant Chodhary manage this restaurant himself <br>
+                   We cook food cleanly and then do serve.</p>
+                <button class="btn btn-outline-danger">Learn More</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-5">  <!--row5-->
+            <div class="col col-lg-6 col-md-12 col-sm-12 p-5">
+                <h3>we make everything by<br> hand with the best possible<br> ingredients</h3>
+                <p>Choudhary's has all that food connoisseurs can ask for the food is not only <br>
+                    appealing but is also different in texture and taste. The menu consists of cuisines<br>
+                     from different parts of india, be it exotic kebabs,delicious curries of tender naans.the food's ethnic taste
+                    taste,exquisite aroma and apt meal size provides absolute value for money.
+                </p> <br><br>
+                <p>We make it by my hand for you</p>
+                <p>We always avaliable your service</p>
+                <p>Quality and Fresh Ingredients</p>
+                <br>
+                <button class="btn btn-outline-danger">Learn More</button>
+            </div>
+            <div class=" col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="col mt-5">
+                        <img id="img2" src="images/Dosa.jpg"  class="rounded">
+                    </div>
+            </div>
+        </div>
+
+        
+        <div class=" mt-5" id="row6"> <!--row6-->
+            <div  class=" col col-9 offset-2 text-white">
+                <h1 class="pt-5">when A Man's stomach is full it makes no Difference<br> Whether He is Rich or Poor.</h1>
+                <p class="mt-4">
+                    Choudhary's menu prefers a tempting tatse of hearty north Indian cuisines, highlighted
+                    by signature dishes like <br> Handi Biryani / Churchur Naan / Dal Makahni.some of the other tempting dishes. <br>
+                    <button class="btn btn-outline-danger my-5">Learn More</button> 
+                </p>
+            </div>
+            <!-- <div class="col">
+                <button class="btn btn-outline-danger">Learn More</button>
+            </div> -->
+        </div>
+
+
+        <!-- card start code -->
+        <div id="explore" class="row"> <!--row7-->
+            <div class="col-12 text-center">
+                <!-- <h2>Explore Our Foods</h2> -->
+                <h2 class="text-center my-5 text-black "> <span class="border-bottom border-4 border-danger">Explore Our Foods</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae, repudiandae ullam laborum amet
+                maxime debitis, quod earum <br>voluptate expedita eos officiis quos optio. Quam eligendi totam alias
+                voluptates repellendus Lorem ipsum dolor<br> sit amet, consectetur adipisicing elit. Natus, quasi
+                tenetur harum molestiae aut sit, gendi odit!</p>
+            </div>
+            <div class="col col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                <div class="card card-group">
+                    <img src="images/paneer-tikka-masala-600x400.jpg" height="390px" class="card-img-top card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">PANNER TIKKA MASALA</h5>
+                        <p class="card-text text-secondary">Time:15-20 Minutes | Serves:3</p>
+                        <h5 class="text-danger"><i class="fa-solid fa-indian-rupee-sign">150</i> <del class="text-secondary"><i class="fa-solid fa-indian-rupee-sign"></i>200</del></h5>
+                        <button class=" btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                <div class="card card-group">
+                    <img src="images/panner%20masala.jpg" height="390px" class="card-img-top card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">PANEER MASALA</h5>
+                        <p class="card-text text-secondary">Time:25-30 Minutes | Serves:3</p>
+                        <h5 class="text-danger"><i class="fa-solid fa-indian-rupee-sign"></i>100 <del class="text-secondary"><i class="fa-solid fa-indian-rupee-sign"></i>170</del></h5>
+                        <button class=" btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                <div class="card card-group">
+                    <img src="images/chicken%20tandori.jpg" height="390px" class="card-img-top card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">CHICKHEN TANDORI</h5>
+                        <p class="card-text text-secondary">Time:25-30 Minutes | Serves:1</p>
+                        <h5 class="text-danger"><i class="fa-solid fa-indian-rupee-sign"></i>100 <del class="text-secondary"><i class="fa-solid fa-indian-rupee-sign"></i>170</del></h5>
+                        <button class=" btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                <div class="card card-group">
+                    <img src="images/egg%20roll.jpg" height="390px" class="card-img-top card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">EGG ROLL</h5>
+                        <p class="card-text text-secondary">Time:10-20 Minutes | Serves:1</p>
+                        <h5 class="text-danger"><i class="fa-solid fa-indian-rupee-sign"></i>60 <del class="text-secondary"><i class="fa-solid fa-indian-rupee-sign"></i>100</del></h5>
+                        <button class=" btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" mt-4 col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                <div class="card card-group">
+                    <img src="images/Tomato-Chicken-Curry-2-3.jpg" height="390px" class="card-img-top card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">CHICKEN MASALA</h5>
+                        <p class="card-text text-secondary">Time:15-20 Minutes | Serves:2</p>
+                        <h5 class="text-danger"><i class="fa-solid fa-indian-rupee-sign">40</i> <del class="text-secondary"><i class="fa-solid fa-indian-rupee-sign"></i>110</del></h5>
+                        <button class=" btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" mt-4 col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                <div class="card card-group">
+                    <img src="images/Chicken-Biryani-2-3.jpg" height="390px" class="card-img-top card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">CHICKEN BIRYANI</h5>
+                        <p class="card-text text-secondary">Time:25-30 Minutes | Serves:2</p>
+                        <h5 class="text-danger"><i class="fa-solid fa-indian-rupee-sign"></i>100 <del class="text-secondary"><i class="fa-solid fa-indian-rupee-sign"></i>170</del></h5>
+                        <button class=" btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" mt-4 col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                <div class="card card-group">
+                    <img src="images/Basic-Anda-Curry.jpg" height="390px" class="card-img-top card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">EGG CURRY</h5>
+                        <p class="card-text text-secondary">Time:25-30 Minutes | Serves:2</p>
+                        <h5 class="text-danger"><i class="fa-solid fa-indian-rupee-sign"></i>100 <del class="text-secondary"><i class="fa-solid fa-indian-rupee-sign"></i>170</del></h5>
+                        <button class=" btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" mt-4 col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-4">
+                <div class="card card-group">
+                    <img src="images/veg-pulao.webp" height="390px" class="card-img-top card-img">
+                    <div class="card-body">
+                        <h5 class="card-title">VEG PULAO</h5>
+                        <p class="card-text text-secondary">Time:10-20 Minutes | Serves:1</p>
+                        <h5 class="text-danger"><i class="fa-solid fa-indian-rupee-sign"></i>60 <del class="text-secondary"><i class="fa-solid fa-indian-rupee-sign"></i>100</del></h5>
+                        <button class=" btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card end code -->
+
+
+        <!-- testimonial start code -->
+        <div id="testimonials" class="bg-danger text-center mt-5"><!--row8-->
+            <h1 class="pb-5 text-white">Testimonials</h1>
+            <div class="col">
+                <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="1000">
+                            <div id="row8child" class="col col-10 pt-5 text-center text-secondary bg-white offset-1">
+                                <img src="images/IMG-20191122-WA0014.jpg" class="rounded-circle" width="55px" height="63px">
+                                <h5>"Excellent food every time. Excellent friendly service every time Very clean,well cared.<br>
+                                     The staff was always very smartly dressed. Always a warm welcome no matter how busy <br>
+                                     they are. Full marks from us."</h5><br>
+                                <h5 class="text-danger">Mr. Adarsh Choudhary</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="2000">
+                            <div id="row8child" class="col col-10 pt-5 text-center text-secondary bg-white offset-1">
+                                <img src="images/passport2222.jpg" class="rounded-circle" width="55px" height="63px">
+                                <h5>"After 2 years of cravings we are back in hometown from america and what a experience<br>
+                                     we had at this place. The food was just what I expected and hope to be."</h5><br>
+                                <h5 class="text-danger">Mr. kunal kanojiya</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="2000">
+                            <div id="row8child" class="col col-10 pt-5 text-center text-secondary bg-white offset-1">
+                                <img src="images/passport5555.jpg"  class="rounded-circle" width="55px" height="63px">
+                                <h5>"Good food...Nice place...Good music and service...Neat and <br> full of greenery...
+                                    Chicken-Biryani are better...Nice place to hangout with <br> your loved ones..."</h5><br>
+                                <h5 class="text-danger">Mr. vedant Choudhary</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- testimonial end code -->
+
+
+
+        <!-- faq sart code -->
+        <div id="faq" class="row p-3">  <!--row9-->
+            <!-- <h2 class="text-center pb-5">Frequently Asked Question</h2> -->
+            <h2 class="text-center my-5 pb-5 text-black "> <span class="border-bottom border-4 border-danger">Frequently Asked Question</span></h2>
+            <div class="col col-lg-6 col-md-6 col-sm-12">
+                    <h4>~ At what times can we have lunch and dinner in the restaurant ?</h4>
+                    <p>Lunch is served from 13:00-15:30.<br> Dinner is served from 20:00-22:30.</p><br>
+                    <h4>~ Do you cook with fresh vegetables everyday?</h4>
+                    <p>Yes,we bring new vegetables from the market every day and feed <br>
+                    the old vegetables to the animals.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h4>~ What happens if I'm unning late?</h4>
+                    <p>Call the restaurant.Every restaurant is different,but most will hold a booking for at least <br>
+                       twenty minutes before reassigning your table.</p><br>
+                    <h4>~ Do you make veg and non-veg separately?</h4>
+                    <p>Yes,ofcourse our works make foods separately without any fuss.</p>
+
+            </div>
+        </div>
+        <!-- faq end code -->
+
+
+        <div class="text-center pt-5">  <!--row10-->
+            <h3>Hurry Up!Subscribe Our Newsletter And Get 25%<br>Off</h3>
+            <p>Limited Time Offer For This Month.No Credit Card Required.</p>
+            <div class="col col-6 offset-3">
+            <input type="search" id="inputc" placeholder="address here">
+            <button id="buttonc">search</button>
+        </div>
+
+
+        <!-- footer start code -->
+        <!-- <div id="row11" class="mt-5 text-center text-white">
+            <div class="col bg-danger">
+            <h5>Contact.no:-9021251040</h5>
+            <h5>Address:-New Colony Sadar Nagpur</h5>
+            <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-brands fa-facebook"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-twitter"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-instagram"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-whatsapp"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-youtube"></i></li>
+            </ul>
+            <h7>&copy;2023.Choudhary's.All right reserved.</h7>
+        </div>
+        </div>  -->
+         <!-- footer end code -->
+
+
+         <div id="row12demo" class="row mt-5">
+            <div id="row12democol1" class="col col-md-5 col-sm-4  offset-sm-1 offset-md-1 mt-5">
+                <h2 class="mb-5">Contact us</h2>
+                <form action="">
+                    <label for="">Name</label><br>
+                    <input type="text" class="form-control mb-5" placeholder="Enter your Name">
+
+                    <label for="">E-mail</label><br>
+                    <input type="text" class="form-control mb-5" placeholder="Enter your E-mail">
+
+                    <label for="">Phone</label><br>
+                    <input type="text" class="form-control mb-5" placeholder="Enter your Phone Number">
+
+                    <label for="">Location</label><br>
+                    <input type="text" class="form-control mb-5" placeholder="Enter your Location">
+
+                    <label for="">Message</label><br>
+                    <textarea name="Message" placeholder="Enter your Message"></textarea>
+                    <button class="form-control mb-5">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6 col-sm-7">
+                <div id="row12democol2" class="m-5 p-4">
+                    <h2>Restaurant Address</h2>
+                    <h5><i class="fa-solid fa-location-pin fa-lg me-3 mt-4"></i>17th Floor, Taj Skyline,Sindhu Bhavan Kamptee
+                         Road, Nagpur, Maharashtra 440001</h5>
+                     <br>
+                    <h5><i class="fa-regular fa-envelope fa-xl me-3"></i>Choudhary's@gmail.com</h5> 
+                    <br>
+                    <h5><i class="fa-solid fa-phone-volume fa-xl me-3"></i>+91 7447885502  , 9021251040</h5>
+                    <br>
+                    <h5>Follow us on</h5>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa-brands fa-facebook fa-lg"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-twitter fa-lg"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-instagram fa-lg"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-whatsapp fa-lg"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-youtube fa-lg"></i></li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+         <div class="row py-3">
+            <h7>&copy;2023.Choudhary's.All right reserved.</h7>
+         </div>
+    </div>
+    <script src="mainjs.js"></script>
+</body>
+</html>
